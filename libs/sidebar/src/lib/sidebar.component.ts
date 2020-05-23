@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lowlandtech-sidebar',
+  selector: 'ngx-admin-layout-sidebar',
   template: `
     <p>
       sidebar works!

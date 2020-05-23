@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lowlandtech-footer',
+  selector: 'ngx-admin-layout-footer',
   template: `
     <p>
       footer works!

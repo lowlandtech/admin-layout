@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lowlandtech-header',
+  selector: 'ngx-admin-layout-header',
   template: `
     <p>
       header works!

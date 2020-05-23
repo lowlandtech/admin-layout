@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lowlandtech-aside',
+  selector: 'ngx-admin-layout-aside',
   template: `
     <p>
       aside works!

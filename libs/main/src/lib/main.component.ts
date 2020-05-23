@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lowlandtech-main',
+  selector: 'ngx-admin-layout-main',
   template: `
     <p>
       main works!

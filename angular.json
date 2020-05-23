@@ -169,7 +169,7 @@
       "projectType": "library",
       "root": "libs/sidebar",
       "sourceRoot": "libs/sidebar/src",
-      "prefix": "lowlandtech",
+      "prefix": "ngx-admin-layout",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -213,7 +213,7 @@
       "projectType": "library",
       "root": "libs/header",
       "sourceRoot": "libs/header/src",
-      "prefix": "lowlandtech",
+      "prefix": "ngx-admin-layout",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -257,7 +257,7 @@
       "projectType": "library",
       "root": "libs/footer",
       "sourceRoot": "libs/footer/src",
-      "prefix": "lowlandtech",
+      "prefix": "ngx-admin-layout",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -301,7 +301,7 @@
       "projectType": "library",
       "root": "libs/aside",
       "sourceRoot": "libs/aside/src",
-      "prefix": "lowlandtech",
+      "prefix": "ngx-admin-layout",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -345,7 +345,7 @@
       "projectType": "library",
       "root": "libs/main",
       "sourceRoot": "libs/main/src",
-      "prefix": "lowlandtech",
+      "prefix": "ngx-admin-layout",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
