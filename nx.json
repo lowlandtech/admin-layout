@@ -1,5 +1,5 @@
 {
-  "npmScope": "admin-layout",
+  "npmScope": "lowlandtech",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {

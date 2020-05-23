@@ -10,7 +10,7 @@
       },
       "root": "apps/demo",
       "sourceRoot": "apps/demo/src",
-      "prefix": "admin-layout",
+      "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
