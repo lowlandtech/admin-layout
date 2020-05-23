@@ -19,7 +19,8 @@
       "@lowlandtech/admin-layout": ["libs/admin-layout/src/index.ts"],
       "@lowlandtech/sidebar": ["libs/sidebar/src/index.ts"],
       "@lowlandtech/header": ["libs/header/src/index.ts"],
-      "@lowlandtech/footer": ["libs/footer/src/index.ts"]
+      "@lowlandtech/footer": ["libs/footer/src/index.ts"],
+      "@lowlandtech/aside": ["libs/aside/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

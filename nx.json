@@ -37,6 +37,9 @@
     },
     "footer": {
       "tags": []
+    },
+    "aside": {
+      "tags": []
     }
   }
 }
