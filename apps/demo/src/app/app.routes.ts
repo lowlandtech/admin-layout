@@ -4,11 +4,7 @@ import { SiteLayoutComponent } from '@lowlandtech/site-layout';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
-  { path: '',
-    component: SiteLayoutComponent,
-    children: [
-    { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
-  ]},
+  { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'admin', loadChildren: () => import('./pages/admin/admin.module').then(m => m.AdminModule) },
 ];
 

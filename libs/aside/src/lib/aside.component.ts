@@ -3,9 +3,8 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 @Component({
   selector: 'llt-aside',
   template: `
-    <aside>
-      aside works!
-    </aside>
+    <ng-content>
+    </ng-content>
   `,
   styleUrls: ['./aside.component.scss']
 })

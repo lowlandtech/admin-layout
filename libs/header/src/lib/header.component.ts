@@ -3,7 +3,8 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 @Component({
   selector: 'llt-header',
   template: `
-    <p>header works!</p>
+  <ng-content>
+  </ng-content>
   `,
   styleUrls: ['./header.component.scss']
 })

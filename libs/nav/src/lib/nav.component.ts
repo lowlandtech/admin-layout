@@ -3,9 +3,8 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 @Component({
   selector: 'llt-nav',
   template: `
-    <nav>
-      nav works!
-    </nav>
+    <ng-content>
+    </ng-content>
   `,
   styleUrls: ['./nav.component.scss']
 })

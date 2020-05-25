@@ -3,9 +3,8 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 @Component({
   selector: 'llt-footer',
   template: `
-    <footer>
-      footer works!
-    </footer>
+  <ng-content>
+  </ng-content>
   `,
   styleUrls: ['./footer.component.scss']
 })

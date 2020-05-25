@@ -10,7 +10,7 @@ import { Component, OnInit, ViewEncapsulation, HostBinding } from '@angular/core
     <ng-content select="llt-footer"></ng-content>
   `,
   styleUrls: ['./admin-layout.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class AdminLayoutComponent implements OnInit {
   @HostBinding('class.layout') class1 = true;
