@@ -3,9 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'llt-main',
   template: `
-    <main>
-      main works!
-    </main>
+    <ng-content>
+    </ng-content>
   `,
   styleUrls: ['./main.component.scss']
 })

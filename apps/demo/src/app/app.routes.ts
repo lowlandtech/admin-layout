@@ -19,10 +19,10 @@ export const routes: Routes = [
     component: AdminLayoutComponent,
     children: [
       { path: '', component: HeaderComponent, outlet: 'header' },
-      // { path: '', component: NavComponent, outlet: 'nav' },
+      { path: '', component: NavComponent, outlet: 'nav' },
       { path: '', component: AdminPageComponent },
-      // { path: '', component: AsideComponent, outlet: 'aside' },
-      // { path: '', component: FooterComponent, outlet: 'footer' }
+      { path: '', component: AsideComponent, outlet: 'aside' },
+      { path: '', component: FooterComponent, outlet: 'footer' }
     ]
   }
 ];
