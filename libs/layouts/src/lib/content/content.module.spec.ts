@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { MainModule } from './main.module';
+import { ContentModule } from './content.module';
 
-describe('MainModule', () => {
+describe('ContentModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [MainModule],
+      imports: [ContentModule],
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(MainModule).toBeDefined();
+    expect(ContentModule).toBeDefined();
   });
 });

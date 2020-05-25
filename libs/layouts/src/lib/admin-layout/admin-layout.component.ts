@@ -5,7 +5,7 @@ import { Component, OnInit, ViewEncapsulation, HostBinding } from '@angular/core
   template: `
     <ng-content select="llt-header"></ng-content>
     <ng-content select="llt-nav"></ng-content>
-    <ng-content select="llt-main"></ng-content>
+    <ng-content select="llt-content"></ng-content>
     <ng-content select="llt-aside"></ng-content>
     <ng-content select="llt-footer"></ng-content>
   `,

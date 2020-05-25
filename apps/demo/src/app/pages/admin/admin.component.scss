@@ -15,9 +15,22 @@
   background-color: #00AAFF;
   text-align: center;
   padding: 10px 0;
+
+  ul {
+    li {
+      color: white;
+      a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
 }
 
-.app-main {
+.app-content {
   background-color: #A5A6AB;
   padding: 10px;
   text-align: center;
@@ -37,12 +50,3 @@
   padding: 10px 0;
 }
 
-ul li {
-  color: white;
-}
-ul li a {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 15px;
-}

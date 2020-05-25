@@ -4,7 +4,7 @@ import { AdminLayoutModule } from './admin-layout';
 import { AsideModule } from './aside';
 import { FooterModule } from './footer';
 import { HeaderModule } from './header';
-import { MainModule } from './main';
+import { ContentModule } from './content';
 import { NavModule } from './nav';
 import { SiteLayoutModule } from './site-layout';
 
@@ -15,7 +15,7 @@ import { SiteLayoutModule } from './site-layout';
     AsideModule,
     FooterModule,
     HeaderModule,
-    MainModule,
+    ContentModule,
     NavModule,
     SiteLayoutModule
   ],
@@ -24,7 +24,7 @@ import { SiteLayoutModule } from './site-layout';
     AsideModule,
     FooterModule,
     HeaderModule,
-    MainModule,
+    ContentModule,
     NavModule,
     SiteLayoutModule
   ]
