@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-admin-layout-sidebar',
+  selector: 'llt-sidebar',
   template: `
-    <p>
+    <nav>
       sidebar works!
-    </p>
+    </nav>
   `,
   styleUrls: ['./sidebar.component.scss']
 })

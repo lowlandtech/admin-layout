@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-admin-layout-footer',
+  selector: 'llt-footer',
   template: `
-    <p>
+    <footer>
       footer works!
-    </p>
+    </footer>
   `,
   styleUrls: ['./footer.component.scss']
 })

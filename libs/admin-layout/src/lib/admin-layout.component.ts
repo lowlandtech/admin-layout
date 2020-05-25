@@ -1,11 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-admin-layout',
+  selector: 'llt-admin',
   template: `
-    <p>
-      admin-layout works!
-    </p>
+    <div class="container">
+      <header><outlet name="header"><outlet></header>
+      <aside class="sidebar"><outlet name="sidebar"><outlet></aside>
+      <main><outlet name="main"><outlet></main>
+      <aside class="menubar"><outlet name="aside"><outlet></aside>
+      <footer><outlet name="footer"><outlet></footer>
+    <div>
   `,
   styleUrls: ['./admin-layout.component.scss']
 })

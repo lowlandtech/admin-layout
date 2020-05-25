@@ -10,7 +10,7 @@
       },
       "root": "apps/demo",
       "sourceRoot": "apps/demo/src",
-      "prefix": "ngx",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -125,7 +125,7 @@
       "projectType": "library",
       "root": "libs/admin-layout",
       "sourceRoot": "libs/admin-layout/src",
-      "prefix": "ngx",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -169,7 +169,7 @@
       "projectType": "library",
       "root": "libs/sidebar",
       "sourceRoot": "libs/sidebar/src",
-      "prefix": "ngx-admin-layout",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -213,7 +213,7 @@
       "projectType": "library",
       "root": "libs/header",
       "sourceRoot": "libs/header/src",
-      "prefix": "ngx-admin-layout",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -257,7 +257,7 @@
       "projectType": "library",
       "root": "libs/footer",
       "sourceRoot": "libs/footer/src",
-      "prefix": "ngx-admin-layout",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -301,7 +301,7 @@
       "projectType": "library",
       "root": "libs/aside",
       "sourceRoot": "libs/aside/src",
-      "prefix": "ngx-admin-layout",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -345,7 +345,7 @@
       "projectType": "library",
       "root": "libs/main",
       "sourceRoot": "libs/main/src",
-      "prefix": "ngx-admin-layout",
+      "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",

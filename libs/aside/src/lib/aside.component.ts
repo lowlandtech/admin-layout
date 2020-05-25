@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-admin-layout-aside',
+  selector: 'llt-aside',
   template: `
-    <p>
+    <aside>
       aside works!
-    </p>
+    </aside>
   `,
   styleUrls: ['./aside.component.scss']
 })

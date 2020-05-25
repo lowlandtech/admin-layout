@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-admin-layout-header',
+  selector: 'llt-header',
   template: `
-    <p>
+    <header>
       header works!
-    </p>
+    </header>
   `,
   styleUrls: ['./header.component.scss']
 })

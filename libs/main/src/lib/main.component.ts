@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-admin-layout-main',
+  selector: 'llt-main',
   template: `
-    <p>
+    <main>
       main works!
-    </p>
+    </main>
   `,
   styleUrls: ['./main.component.scss']
 })
