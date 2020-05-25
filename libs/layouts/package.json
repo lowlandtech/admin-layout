@@ -1,6 +1,7 @@
 {
   "name": "@lowlandtech/layouts",
   "version": "0.0.0",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "peerDependencies": {
     "@angular/common": "^9.1.9",
     "@angular/core": "^9.1.9"
