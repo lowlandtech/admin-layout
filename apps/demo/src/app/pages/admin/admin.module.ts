@@ -1,10 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { LayoutsModule } from '@lowlandtech/layouts';
 
-import { routes } from './admin.routes';
 import { AdminComponent } from './admin.component';
+
+export const routes: Routes = [
+  {
+    path: '',
+    component: AdminComponent,
+    data: { title: 'admin' }
+  }
+];
 
 @NgModule({
   declarations: [AdminComponent],

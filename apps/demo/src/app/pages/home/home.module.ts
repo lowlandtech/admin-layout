@@ -1,11 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
-
+import { RouterModule, Routes } from '@angular/router';
 import { LayoutsModule } from '@lowlandtech/layouts';
 
 import { HomeComponent } from './home.component';
-import { routes } from './home.routes';
+
+export const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent,
+    data: {
+      title: 'Home'
+    }
+  }
+];
 
 @NgModule({
   declarations: [HomeComponent],

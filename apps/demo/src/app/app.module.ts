@@ -1,10 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-import { routes } from './app.routes';
 import { AppComponent } from './app.component';
 import { LayoutsModule } from '@lowlandtech/layouts';
+
+export const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'admin' },
+  { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
+  { path: 'admin', loadChildren: () => import('./pages/admin/admin.module').then(m => m.AdminModule) },
+];
 
 @NgModule({
   declarations: [AppComponent],
