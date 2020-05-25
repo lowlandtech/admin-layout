@@ -8,6 +8,13 @@
     "apps\\**\\browserslist": true,
     "apps\\**\\jest.config.js": true,
     "apps\\**\\src\\test-setup.ts": true,
-    "apps\\**\\tsconfig*.json": true
+    "apps\\**\\tsconfig*.json": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    ".prettier*": true,
+    "jest.config.js": true,
+    "package-lock.json": true,
+    "tsconfig.json": true,
+    "tslint.json": true
   }
 }
