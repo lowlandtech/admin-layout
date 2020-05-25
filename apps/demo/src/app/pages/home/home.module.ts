@@ -1,23 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
-import { SiteLayoutModule } from '@lowlandtech/site-layout';
-import { HeaderModule } from '@lowlandtech/header';
-import { MainModule } from '@lowlandtech/main';
-import { FooterModule } from '@lowlandtech/footer';
+import { LayoutsModule } from '@lowlandtech/layouts';
 
-import { HomeRoutingModule } from './home.routes';
 import { HomeComponent } from './home.component';
+import { routes } from './home.routes';
 
 @NgModule({
   declarations: [HomeComponent],
   imports: [
     CommonModule,
-    SiteLayoutModule,
-    HeaderModule,
-    MainModule,
-    FooterModule,
-    HomeRoutingModule
+    LayoutsModule,
+    RouterModule.forChild(routes)
   ]
 })
 export class HomeModule { }

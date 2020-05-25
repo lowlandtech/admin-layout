@@ -428,6 +428,50 @@
           "style": "scss"
         }
       }
+    },
+    "layouts": {
+      "projectType": "library",
+      "root": "libs/layouts",
+      "sourceRoot": "libs/layouts/src",
+      "prefix": "lowlandtech",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "options": {
+            "tsConfig": "libs/layouts/tsconfig.lib.json",
+            "project": "libs/layouts/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/layouts/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/layouts/tsconfig.lib.json",
+              "libs/layouts/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/layouts/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/layouts/jest.config.js",
+            "tsConfig": "libs/layouts/tsconfig.spec.json",
+            "passWithNoTests": true,
+            "setupFile": "libs/layouts/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "style": "scss"
+        }
+      }
     }
   },
   "cli": {

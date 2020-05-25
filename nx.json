@@ -46,6 +46,17 @@
     },
     "site-layout": {
       "tags": []
+    },
+    "layouts": {
+      "tags": [
+        "admin-layout",
+        "nav",
+        "header",
+        "footer",
+        "aside",
+        "main",
+        "site-layout"
+      ]
     }
   }
 }

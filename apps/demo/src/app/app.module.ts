@@ -1,30 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
-import { SiteLayoutModule } from '@lowlandtech/site-layout';
-import { AdminLayoutModule } from '@lowlandtech/admin-layout';
-
-import { HeaderModule } from '@lowlandtech/header';
-import { NavModule } from '@lowlandtech/nav';
-import { MainModule } from '@lowlandtech/main';
-import { AsideModule } from '@lowlandtech/aside';
-import { FooterModule } from '@lowlandtech/footer';
-
+import { routes } from './app.routes';
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app.routes';
+import { LayoutsModule } from '@lowlandtech/layouts';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    SiteLayoutModule,
-    AdminLayoutModule,
-    HeaderModule,
-    NavModule,
-    MainModule,
-    AsideModule,
-    FooterModule,
-    AppRoutingModule,
+    LayoutsModule,
+    RouterModule.forRoot(routes, {
+      initialNavigation: 'enabled',
+      useHash: true
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
