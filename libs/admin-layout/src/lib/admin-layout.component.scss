@@ -1,16 +1,17 @@
-.container {
+.layout {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: auto 1fr auto;
-  grid-gap: 12px;
+  grid-gap: 0;
   grid-template-areas:
   "header header header"
   "nav content side"
   "footer footer footer";
   height: 100vh;
+  width: 100vw;
 }
 
-llt-header {
+.app-header {
   color: white;
   font-size: 14px;
   grid-area: header;
@@ -18,25 +19,25 @@ llt-header {
   background-color: #FA7D44;
 }
 
-llt-nav {
+.app-nav {
   grid-area: nav;
-  margin-left: 0.6rem;
+  margin-left: 0;
   background-color: #2A92BF;
 }
 
-llt-main {
+.app-main {
   grid-area: content;
   background-color: #F4CE46;
   padding: 25px;
 }
 
-llt-aside {
+.app-aside {
   grid-area: side;
-  margin-right: 0.6rem;
+  margin-right: 0;
   background-color: #2A92BF;
 }
 
-llt-footer {
+.app-footer {
   grid-area: footer;
   background-color:#2BB961;
   color: white;
@@ -55,12 +56,12 @@ ul li a {
 }
 
 @media (max-width: 991px) {
-  llt-nav,
-  llt-aside {
+  .app-nav,
+  .app-aside {
     margin: 0;
   }
 
-  .container {
+  .layout {
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"

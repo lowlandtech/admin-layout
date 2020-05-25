@@ -1,19 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, HostBinding } from '@angular/core';
 
 @Component({
+  selector: 'llt-admin-layout',
   template: `
-    <div class="container">
-      <router-outlet name="header"><router-outlet>
-      <router-outlet name="nav"><router-outlet>
-      <router-outlet><router-outlet>
-      <router-outlet name="aside"><router-outlet>
-      <router-outlet name="footer"><router-outlet>
-    <div>
+    <ng-content select="llt-header"></ng-content>
+    <ng-content select="llt-nav"></ng-content>
+    <ng-content select="llt-main"></ng-content>
+    <ng-content select="llt-aside"></ng-content>
+    <ng-content select="llt-footer"></ng-content>
   `,
-  styleUrls: ['./admin-layout.component.scss']
+  styleUrls: ['./admin-layout.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class AdminLayoutComponent implements OnInit {
-
+  @HostBinding('class.layout') class1 = true;
   constructor() { }
 
   ngOnInit(): void {
