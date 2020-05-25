@@ -4,8 +4,9 @@ First I used to make layouts with bootstrap, which wasn't ideal but better than 
 
 One day I saw a youtube video about css-grid and I thought it was the best thing after slice bread. And I immediately thought back at my efforts to have an external site layout for website and and admin layout for admin backend-ish apps. So, today I share my first attempt with the world.
 
-### Objectives
+### Roadmap: objectives achieved
 
+- [x] Use css-grid for layout (don't use any css frameworks)
 - [x] Make a page layout importable as an angular module
 - [x] Use layout components with default and custom content
 - [x] Seperate the layout (css-grid) structural style rules from the styling rules
@@ -44,7 +45,8 @@ import { AdminComponent } from './admin.component';
 })
 export class AdminModule { }
 ```
-Add some html markup to the template file
+#### Add some html markup to the template file
+
 > [admin.component.html](https://github.com/lowlandtech/layouts/blob/master/apps/demo/src/app/pages/admin/admin.component.html)
 
 ```html
@@ -203,9 +205,11 @@ There's also a second page (home) which uses the site-layout.
 
 ## Roadmap
 
+- [ ] Add github action to ng test on git commit to develop
+- [ ] Add github action to npm publish a release on git merge to master
 - [ ] Create default HeaderItem with default styling and grouping to content left and right
 - [ ] Create default NavItem with default styling and grouping by NavItem type (nav-header, nav-menu, nav-menu-item, nav-footer)
 - [ ] Use rxjs to emit events from the layout components
 - [ ] Make NavComponent collapsible and minimizable
-- [ ] Made AsideComponent collapsible and minimizable
+- [ ] Make AsideComponent collapsible and minimizable
 - [ ] Remove the component selector and have only semantic html
