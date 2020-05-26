@@ -214,7 +214,7 @@ There's also a second page (home) which uses the site-layout.
 - [ ] Make AsideComponent collapsible and minimizable
 - [ ] Remove the component selector and have only semantic html
 
-### Source
+## Sources
 
 - https://www.positronx.io/css-grid-layout-holy-grail-angular-ui-tutorial/
 - https://learncssgrid.com/
