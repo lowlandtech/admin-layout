@@ -5,7 +5,7 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "cpy readme.md libs/layouts & cd libs/layouts & standard-version  & cd ../.. & ng build layouts --prod & cd dist/libs/layouts & npm publish & cd ../.. & ng deploy --base-href=/layouts/",
+    "deploy": "cpy readme.md libs/layouts & cd libs/layouts & standard-version  & cd ../.. & ng build layouts --prod & cd dist/libs/layouts & npm publish & cd ../.. & ng deploy --base-href=/layouts/ --message \"chore: deploy demo\"",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
